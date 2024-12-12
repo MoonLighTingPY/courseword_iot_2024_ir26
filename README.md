@@ -1,0 +1,1 @@
+# courseword_iot_2024_ir26

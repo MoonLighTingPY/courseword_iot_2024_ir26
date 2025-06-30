@@ -1,0 +1,71 @@
+.bellman-ford-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+}
+
+.cytoscape-container {
+  height: 400px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.distances-container {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.distances-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.distance-item {
+  margin: 5px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.highlighted-node, .highlighted-edge {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.negative-cycle {
+  stroke: red;
+  stroke-width: 2px;
+  fill: red;
+}
+.error-message {
+  margin-top: 20px;
+}
+
+.highlighted-node.active, .highlighted-edge.active {
+  opacity: 1;
+}
+
+button {
+  margin: 5px;
+}

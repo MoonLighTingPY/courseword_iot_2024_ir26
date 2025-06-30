@@ -1,0 +1,54 @@
+.min-heap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+}
+
+.tree-container {
+  height: 400px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.rd3t-link.highlighted-edge {
+  stroke: red !important;
+  stroke-width: 3px !important;
+}
+
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+button {
+  margin: 5px;
+}
+
+.print-result {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.step-message {
+  margin-top: 20px;
+}
